@@ -78,7 +78,7 @@ const App = () => {
 						type="text"
 						value={query}
 						onChange={(e) => setQuery(e.target.value.trimStart())}
-						placeholder="Search Users"
+						placeholder="Pick Users"
 						className="bg-transparent text-sm flex-1 caret-rose-600"
 						onFocus={() => setMenuOpen(true)}
 						onBlur={() => setMenuOpen(false)}
