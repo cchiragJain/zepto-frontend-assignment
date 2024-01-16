@@ -5,7 +5,7 @@ import { userList } from "./data/userList";
 const App = () => {
 	const [query, setQuery] = useState("");
 	const [selected, setSelected] = useState([]);
-	const [menuOpen, setMenuOpen] = useState(true);
+	const [menuOpen, setMenuOpen] = useState(false);
 
 	const inputRef = useRef(null);
 
